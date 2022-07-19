@@ -24,7 +24,7 @@ class SecondViewController: UIViewController {
         if segue.identifier == "thirdScreen" {
             let controller = segue.destination as? ThirdViewController
             controller?.modalPresentationStyle = .fullScreen
-            controller?.receivedValue = "Hello!"
+            //controller?.receivedValue = "Hello!"
         }
     }
 }
